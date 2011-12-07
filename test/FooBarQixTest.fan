@@ -1,7 +1,7 @@
 class FooBarQixTest : Test
 {
   Void testCount() {
-    verifyEq(FooBarQix.count(10), 
+    verifyEq(FBQNumber.count(10), 
       "1
        2
        FooFoo

@@ -1,12 +1,7 @@
-class FooBarQix
-{
+class Main {
   static Void main(Str[] args) {
-    echo(count(100))
-  }  
-
-  static Str count(Int target) {
-    return (1..target).map |number->Str| { FBQNumber(number).toStr  } .join("\n")
-  }
+    echo(FBQNumber.count(100))
+  } 
 }
 
 class FBQNumber {
@@ -15,6 +10,10 @@ class FBQNumber {
     this.number = number
   }
   
+  static Str count(Int target) {
+    return (1..target).map |number->Str| { FBQNumber(number).toStr  } .join("\n")
+  }
+
   override Str toStr() {
     Str result := ""
     if (isMultiple(3)) result += "Foo"
