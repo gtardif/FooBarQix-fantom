@@ -5,7 +5,7 @@ class Build : build::BuildPod
   {
     podName = "FooBarQix"
     summary = ""
-    srcDirs = [`src/`]
+    srcDirs = [`test/`, `src/`]
     depends = ["sys 1.0"]
   }
 }
