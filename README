@@ -1,4 +1,5 @@
 Foo Bar Qiz contest, fantom implementation
 For contest details, see http://www.code-story.net/2011/11/16/foobarqix.html
+
 to execute, first install fan (http://fantom.org/doc/docIntro/StartHere.html), then : 
 > fan src/FooBarQix.fan
